@@ -1,6 +1,6 @@
 import { ABOUT_PAGE } from "../constants/content";
 
-export function LandingPage() {
+export function AboutMe() {
 
     return(
         <>

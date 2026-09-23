@@ -1,0 +1,64 @@
+.homepage {
+
+    font-family: IBM Plex Mono, monospace;
+
+}
+
+
+.homepage h1 {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.homepage h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.homepage p {
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.homepage img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.work-with-me-button {
+    display: block;
+    background-color: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 25px 35px;
+    font-size: 16px;
+    font-family: SF Pro Display, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 32px auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    text-align: center;
+    font-family: IBM Plex Mono, monospace;
+    padding: 20px 0;
+    font-size: 16px;
+
+}
