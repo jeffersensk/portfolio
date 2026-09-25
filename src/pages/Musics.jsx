@@ -8,15 +8,9 @@ export function Musics() {
 
              <div className="header">
                 
-                <a className="home-link" href="/" aria-label="Home" title="Home">
-                    j
-                </a>
-                <a className="about-me-link" href="/aboutMe">
-                    About Me
-                </a>
-                <a className="projects-link" href="/projects">
-                    Projects
-                </a>
+                <a className="home-link" href="/" aria-label="Home" title="Home">j</a>
+                <a className="about-me-link" href="/aboutMe">About Me</a>
+                <a className="projects-link" href="/projects">Projects</a>
 
             </div>
 

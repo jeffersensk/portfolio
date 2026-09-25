@@ -18,3 +18,9 @@ export const ABOUT_PAGE = {
     bottomParagraph: "So you guys should be able to find my contacts down below, just by clicking each button"
 
 }
+
+export const PROJECTS_PAGE = {
+
+    description: "Well as a computer science student, here are some of the projects I have done. Some of the project repo is stored privately due to confidentiality but I am happy to share some of the public ones"
+
+}
