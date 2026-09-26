@@ -1,4 +1,6 @@
 import './header.css';
+import './Musics.css';
+import { MUSICS_PAGE } from '../constants/content'
 
 export function Musics() {
 
@@ -14,7 +16,9 @@ export function Musics() {
 
             </div>
 
-            <p>music page</p>
+            <h2 className="musics-title">Musics</h2>
+
+            <p className="musics">{MUSICS_PAGE.description}</p>
         </>
     );
 }

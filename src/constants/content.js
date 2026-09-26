@@ -24,3 +24,9 @@ export const PROJECTS_PAGE = {
     description: "Well as a computer science student, here are some of the projects I have done. Some of the project repo is stored privately due to confidentiality but I am happy to share some of the public ones"
 
 }
+
+export const MUSICS_PAGE = {
+
+    description: "Well I play keys and guitar at church, well mostly keys. You’ll find some keys playing clips on my instagram and you’ll also find some cover’s in Youtube as well. . as for released music, I’m still working on it ... below are some of my best works"
+
+}
