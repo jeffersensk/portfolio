@@ -1,5 +1,6 @@
 import './header.css';
 import './Projects.css';
+import { Link } from 'react-router'
 import { useState } from 'react'
 import { getProjects } from '../projects/projectsData'
 import { PROJECTS_PAGE } from '../constants/content'
@@ -27,9 +28,9 @@ export function Projects() {
 
              <div className="header">
                 
-                <a className="home-link" href="/" aria-label="Home" title="Home">j</a>
-                <a className="about-me-link" href="/aboutMe">About Me</a>
-                <a className="musics-link" href="/musics">Musics</a>
+                <Link className="home-link" to="/" aria-label="Home" title="Home">j</Link>
+                <Link className="about-me-link" to="/aboutMe">About Me</Link>
+                <Link className="musics-link" to="/musics">Musics</Link>
 
             </div>
 

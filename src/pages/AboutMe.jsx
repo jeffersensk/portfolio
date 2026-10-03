@@ -1,4 +1,5 @@
 import { ABOUT_PAGE } from "../constants/content";
+import { Link } from 'react-router'
 import './header.css';
 
 export function AboutMe() {
@@ -9,9 +10,9 @@ export function AboutMe() {
 
              <div className="header">
                 
-                <a className="home-link" href="/" aria-label="Home" title="Home">j</a>
-                <a className="projects-link" href="/projects">Projects</a>
-                <a className="musics-link" href="/musics">Musics</a>
+                <Link className="home-link" to="/" aria-label="Home" title="Home">j</Link>
+                <Link className="projects-link" to="/projects">Projects</Link>
+                <Link className="musics-link" to="/musics">Musics</Link>
 
             </div>
 

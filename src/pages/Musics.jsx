@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './header.css';
 import './Musics.css';
 import { MUSICS_PAGE } from '../constants/content'
@@ -10,9 +11,9 @@ export function Musics() {
 
              <div className="header">
                 
-                <a className="home-link" href="/" aria-label="Home" title="Home">j</a>
-                <a className="about-me-link" href="/aboutMe">About Me</a>
-                <a className="projects-link" href="/projects">Projects</a>
+                <Link className="home-link" to="/" aria-label="Home" title="Home">j</Link>
+                <Link className="about-me-link" to="/aboutMe">About Me</Link>
+                <Link className="projects-link" to="/projects">Projects</Link>
 
             </div>
 
